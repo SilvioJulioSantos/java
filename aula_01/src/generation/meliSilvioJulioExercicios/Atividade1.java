@@ -11,14 +11,17 @@ public class Atividade1 {
 
         int salario, abono =0;
 
+        //Entrada de dados
         System.out.println("Informe o seu salário:");
         salario = entrada.nextInt();
 
         System.out.println("Informe o seu abono :");
         abono = entrada.nextInt();
 
+        //Processamento de dados
         int salarioAtualizado = salario+ abono;
 
+        //Saida dos dados processados
         System.out.printf("Salário atualizado R$ %d ", salarioAtualizado);
     }
 }

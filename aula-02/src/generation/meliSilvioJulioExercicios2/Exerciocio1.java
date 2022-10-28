@@ -40,7 +40,8 @@ public class Exerciocio1 {
             //Saída dos dados
             System.out.println("Numero " +numero3+ " é o maior.");
         }
+
         System.out.println("Programa finalizado !");
-      entrada.close();
+        entrada.close();
     }
 }

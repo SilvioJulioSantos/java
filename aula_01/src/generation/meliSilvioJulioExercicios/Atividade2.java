@@ -7,7 +7,7 @@ public class Atividade2 {
 
     public static void main(String[] args) {
 
-        //Leitura do teclado ===
+        //Leitura do teclado
         Scanner entrada = new Scanner(System.in);
 
         DecimalFormat dt = new DecimalFormat("#.##");

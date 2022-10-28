@@ -2,14 +2,7 @@ package generation.meliSilvioJulioExercicios2;
 
 import java.util.Scanner;
 
-public class Atividade4 {
-    /**
-     *
-     * Faça um programa em que permita a entrada de um número qualquer e exiba se este
-     * número é par ou ímpar. Se for par exiba também a raiz quadrada do mesmo; se for
-     * ímpar exiba o número elevado ao quadrado.
-     *
-     */
+public class Exerciccio4 {
 
     public static void main(String[] args) {
 

@@ -29,5 +29,7 @@ public class Exerciccio2 {
             System.out.print(numeros[j]+ "  ");
         }
 
+        System.out.println("Programa finalizado !");
+        entrada.close();
     }
 }

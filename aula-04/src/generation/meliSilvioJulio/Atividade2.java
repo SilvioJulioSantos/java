@@ -20,22 +20,22 @@ public class Atividade2 {
         }
         System.out.println("Elementos nos índices ímpares:");
         contador=0;
-        while (contador <10) {
+        while (contador < 10) {
 
-            if (contador %2==1) {
+            if (vetor[contador] %2==1) {
 
-                System.out.println(vetor[contador]);
+                System.out.println(vetor[contador]+" \n");
            }
             contador++;
-            ;
+
         }
 
-        System.out.println("Elementos pares::");
+        System.out.println("Elementos pares:");
         contador=0;
 
         while (contador <10) {
 
-            if (contador %2==0) {
+            if (vetor[contador] %2==0) {
 
                 System.out.println(vetor[contador]);
             }
@@ -43,22 +43,23 @@ public class Atividade2 {
 
         }
 
-        System.out.println("Elementos pares:");
 
         contador=0;
 
         while (contador <10) {
 
-            soma =+ vetor[contador];
+            soma += vetor[contador];
 
             contador++;
         }
 
-        System.out.print("Resultado so cálculo:");
-        System.out.print("Soma total:"+ soma);
-        System.out.print("Média: "+ (soma/10));
+        System.out.println("Resultado so cálculo:");
+        System.out.println("Soma total: "+ soma);
+        System.out.println("Média: "+ (soma/10));
 
         System.out.println("Programa finalizado !");
-        entrada.close();
+        //entrada.close();
+        System.exit(contador);
     }
+
 }
